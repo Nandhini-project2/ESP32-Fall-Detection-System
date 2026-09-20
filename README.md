@@ -50,20 +50,6 @@ Jumper Wires| Circuit connections
 - Basic Fall Detection Algorithm
 - Alert Mechanism
 
-🔄 How It Works
-
-        MPU6050
-            ↓
-   Acceleration & Gyroscope
-            ↓
-          ESP32
-            ↓
-   Fall Detection Logic
-            ↓
-      ┌─────┴─────┐
-      ↓           ↓
-   LED Alert   Buzzer Alert
-
 Working Process
 
 1. MPU6050 continuously measures acceleration and gyroscope values.
